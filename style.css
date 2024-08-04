@@ -9,6 +9,8 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* HEADER */
+
 .header {
     background-color: #1f2937;
     padding: 12px 210px;
@@ -43,6 +45,7 @@ body {
     align-items: baseline;
     margin-bottom: 50px;
     flex-wrap: wrap;
+    padding-bottom: 50px;
 }
 
 .header-content {
@@ -51,6 +54,7 @@ body {
     font-size: 18px;
     color: #e5e7eb;
     gap: 24px;
+    padding-bottom: 80px;
 }
 
 .header-content h1 {
@@ -66,7 +70,6 @@ body {
     gap: 10px;
     margin: 0 80px 0 0;
     padding: 0;
-
 }
 
 .hero button {
@@ -76,4 +79,52 @@ body {
     font-size: 18px;
     color: #f9faf8;
     padding: 10px 40px;
+}
+
+.hero-image {
+    background-color: #999999;
+}
+
+/* BODY */
+
+.body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.first-row {
+    padding: 40px 210px;
+    color: #1f2937;
+    font-size: 22px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 48px;
+    padding: 40px 0;
+}
+
+.card {
+    flex: 1 0 auto;
+    border: solid;
+    border-width: 4px;
+    border-color: #3882f6;
+    border-radius: 10px;
+    max-width: 160px;
+    height: 160px;
+    margin-bottom: 100px;
+}
+
+.card-footer {
+    padding-top: 170px;
+    color: #1f2937;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.second-row {
+    padding: 0 210px;
 }

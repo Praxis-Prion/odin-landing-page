@@ -90,13 +90,14 @@ body {
 .body {
     display: flex;
     flex-direction: column;
-    text-align: center;
+
 }
 
 .first-row {
     padding: 40px 210px;
     color: #1f2937;
     font-size: 22px;
+    text-align: center;
 }
 
 .cards {
@@ -126,5 +127,15 @@ body {
 }
 
 .second-row {
-    padding: 0 210px;
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 100px 300px;
+    color: #1f2937;
+    font-size: 36px;
+}
+
+.author {
+    margin-left: auto;
+    font-size: 24px;
 }
